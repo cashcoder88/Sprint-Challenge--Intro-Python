@@ -6,8 +6,8 @@ class City:
     self.lat = lat
     self.lon = lon
 
-  def __repr__(self):
-    return f"{self.name} has latitude {self.lat} and longitude {self.lon}" 
+  # def __repr__(self):
+  #   return f"{self.name} has latitude {self.lat} and longitude {self.lon}" 
 
 # We have a collection of US cities with population over 750,000 stored in the
 # file "cities.csv". (CSV stands for "comma-separated values".)

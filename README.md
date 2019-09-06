@@ -19,17 +19,17 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Complete the programs in the `src/` directory in any order.
 
-* `oop/` []
+* `oop/` [x]
     * `oop1.py`: class hierarchies [x], test [x]
-    * `oop2.py`: subclassing and method overriding [], test []
-* `comp/` []
-    * `comp.py`: list comprehensions
-* `cityreader/` []
-    * `cityreader.py`: modules and CSV file reading
+    * `oop2.py`: subclassing and method overriding [x], test [x]
+* `comp/` [x]
+    * `comp.py`: list comprehensions [x], test [x]
+* `cityreader/` [x]
+    * `cityreader.py`: modules and CSV file reading [x], test [x]
 
 ## Testing
 
-Each file has its own associated test file. To test your code, run `python [name_of_test_file.py]` or `python3 [name_of_test_file.py]` if your Python 3 command is mapped to `python3`. Note: `cityreader` needs to be run from the same directory as the files or it will not be able to find the associated CSV file. []
+Each file has its own associated test file. To test your code, run `python [name_of_test_file.py]` or `python3 [name_of_test_file.py]` if your Python 3 command is mapped to `python3`. Note: `cityreader` needs to be run from the same directory as the files or it will not be able to find the associated CSV file. [x]
 
 The `cityreader` stretch goal has its own test file, `test_stretch.py`, if you want to take a stab at implementing the stretch problem.
 
@@ -39,7 +39,7 @@ The `cityreader` stretch goal has its own test file, `test_stretch.py`, if you w
 
 In order to meet MVP requirements for this Sprint Challenge, complete all of the exercises posed in each directory by getting the tests for each exercise to pass.
 
-In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets the MVP requirements than one that attempts too much and does not. []
+In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets the MVP requirements than one that attempts too much and does not. [x]
 
 ## Stretch Problems
 
