@@ -20,7 +20,7 @@ class GroundVehicle():
 
 class Motorcycle(GroundVehicle):
     def __init__(self, num_wheels = 4):
-        GroundVehicle.__init__(self, num_wheels = 2)
+        GroundVehicle.__init__(self, num_wheels = 2) #found instance online of passing Parent instead of super, it worked
 
     def drive(self):
         return "BRAAAP!!"
@@ -37,3 +37,5 @@ vehicles = [
 
 for a in vehicles:
    print(a.drive())
+
+#Review: struggled with super for a little while. passing Parent class instead solved this. It all looks good!

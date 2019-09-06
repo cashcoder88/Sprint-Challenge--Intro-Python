@@ -38,3 +38,5 @@ class Starship(FlightVehicle):
 
 class Airplane(FlightVehicle):
     pass
+
+#Review: this part was super simple, looks good
