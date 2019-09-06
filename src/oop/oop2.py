@@ -4,10 +4,11 @@
 # object is constructed.
 
 class GroundVehicle():
-    def __init__(self, num_wheels):
+    def __init__(self, num_wheels = 4):
         self.num_wheels = num_wheels
 
-    # TODO
+    def drive(self):
+        return "vroooom"
 
 
 # Subclass Motorcycle from GroundVehicle.
@@ -17,7 +18,12 @@ class GroundVehicle():
 #
 # Override the drive() method in Motorcycle so that it returns "BRAAAP!!"
 
-# TODO
+class Motorcycle(GroundVehicle):
+    def __init__(self, num_wheels = 4):
+        GroundVehicle.__init__(self, num_wheels = 2) #found instance online of passing Parent instead of super, it worked
+
+    def drive(self):
+        return "BRAAAP!!"
 
 vehicles = [
     GroundVehicle(),
@@ -29,4 +35,7 @@ vehicles = [
 
 # Go through the vehicles list and print the result of calling drive() on each.
 
-# TODO
+for a in vehicles:
+   print(a.drive())
+
+#Review: struggled with super for a little while. passing Parent class instead solved this. It all looks good!
